@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  dnd-bot:
+    build: .
+    image: leonkonst.cr.cloud.ru/dand
+    container_name: dnd-bot
+    env_file:
+      - .env
