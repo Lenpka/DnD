@@ -73,7 +73,7 @@ def bot_message(message):
         return
 
     if message.text == "Ссылка на Git":
-        bot.send_message(chat_id, "https://github.com/users/Lenpka/projects/1")
+        bot.send_message(chat_id, "https://github.com/Lenpka/DnD/tree/master")
 
     elif message.text == "Настройки ролей":
         if session.game_started:
